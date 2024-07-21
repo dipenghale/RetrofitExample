@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/createadd"
+        android:text="Create New Address"
+        android:textSize="20sp"
+        android:textColor="@color/red"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/name"
+        android:hint="Enter Your Name"
+        android:layout_marginTop="10dp"
+       ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/email"
+        android:hint="Enter Your Email"
+        android:layout_marginTop="10dp"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/phone"
+        android:hint="Enter Your Phone"
+        android:layout_marginTop="10dp"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/city"
+        android:hint="Enter Your City"
+        android:layout_marginTop="10dp"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/street"
+        android:hint="Enter Your Street"
+        android:layout_marginTop="10dp"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/saveadd"
+        android:text="Save Address"
+        android:layout_marginTop="10dp"></Button>
+
+</LinearLayout>
